@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- base href="https://www.itc2019.org/" -->
+    <title>ITC 2019: International Timetabling Competition 2019</title>
+    <link rel="stylesheet" href="bet-sum18_files/bootstrap.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="bet-sum18_files/style.css">
+    <link rel="shortcut icon" href="https://www.itc2019.org/images/favicon.ico">
+<style>.danger[_ngcontent-ayb-2]   .modal-content[_ngcontent-ayb-2] {
+    background-color: 	#f8c2ba;
+}
+
+.success[_ngcontent-ayb-2]   .modal-content[_ngcontent-ayb-2] {
+    background-color: #caedc7;
+}
+
+.info[_ngcontent-ayb-2]   .modal-content[_ngcontent-ayb-2] {
+    background-color: #cbd7fd;
+}</style><script type="text/javascript" charset="utf-8" async="" src="bet-sum18_files/6.js"></script><style type="text/css">.vimvixen-console-frame {
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 2147483647;
+  border: none;
+  background-color: unset;
+  pointer-events: none; }
+</style><style type="text/css">.vimvixen-hint {
+  background-color: yellow;
+  border: 1px solid gold;
+  font-weight: bold;
+  position: absolute;
+  text-transform: uppercase;
+  z-index: 2147483647;
+  font-size: 12px;
+  color: black;
+}
+</style><script charset="utf-8" src="bet-sum18_files/button.js"></script></head>
+
+<body>
+<my-app><div class="container">
+    <app-flash-message _nghost-ayb-2=""><button _ngcontent-ayb-2="" data-target="#myModal" data-toggle="modal" id="openFlashMessage" hidden=""></button>
+
+<div _ngcontent-ayb-2="" aria-hidden="true" class="modal fade" id="myModal" role="dialog" tabindex="-1">
+    <div _ngcontent-ayb-2="" role="document" class="modal-dialog ">
+        <div _ngcontent-ayb-2="" class="modal-content">
+            <div _ngcontent-ayb-2="" class="modal-body" style="text-align: center; padding: 5% 2% 5% 2%">
+                <h5 _ngcontent-ayb-2=""></h5>
+            </div>
+            <div _ngcontent-ayb-2="" class="modal-footer">
+                <button _ngcontent-ayb-2="" class="btn btn-default style-1" data-dismiss="modal" type="button">OK</button>
+            </div>
+        </div>
+    </div>
+</div>
+</app-flash-message>
+    <app-header><div class="navbar">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" data-target=".navbar-collapse.in" data-toggle="collapse" href="https://www.itc2019.org/home"><span class="home-button"><img class="logo" src="bet-sum18_files/logo-menu-notext.png"> ITC 2019</span></a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav  navbar-right">
+              <li class="dropdown pull-right">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">brped13@student.sdu.dk&nbsp;
+                      <span class="glyphicon glyphicon-user grey"></span><b class="caret grey"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                      <!--template bindings={}-->
+                      <!--template bindings={}-->
+                      <!--template bindings={}--><li data-target=".navbar-collapse.in" data-toggle="collapse" routerlinkactive="active">
+                          <a href="https://www.itc2019.org/profile">Profile</a>
+                      </li>
+                      <!--template bindings={}-->
+                      <!--template bindings={}--><li class="divider"></li>
+                      <!--template bindings={}--><li data-target=".navbar-collapse.in" data-toggle="collapse">
+                          <a>Log out</a>
+                      </li>
+                  </ul>
+              </li>
+          </ul>
+          <ul class="nav navbar-nav  navbar-left">
+                <li data-target=".navbar-collapse.in" data-toggle="collapse" routerlinkactive="active">
+                    <a href="https://www.itc2019.org/organization">Organization</a>
+		            </li>
+                <li data-target=".navbar-collapse.in" data-toggle="collapse" routerlinkactive="active">
+                    <a href="https://www.itc2019.org/rules">Rules</a>
+                </li>
+                <li data-target=".navbar-collapse.in" data-toggle="collapse" routerlinkactive="active">
+                    <a href="https://www.itc2019.org/format">Format</a>
+                </li>
+                <li data-target=".navbar-collapse.in" data-toggle="collapse" routerlinkactive="active" class="active">
+                    <a href="https://www.itc2019.org/instances">Instances</a>
+                </li>
+                <!--template bindings={}-->
+                <!--template bindings={}-->
+                <!--template bindings={}--><li data-target=".navbar-collapse.in" data-toggle="collapse" routerlinkactive="active">
+                    <a href="https://www.itc2019.org/validator">Validation</a>
+                </li>
+                <!--template bindings={}-->
+                <!--template bindings={}--><li data-target=".navbar-collapse.in" data-toggle="collapse" routerlinkactive="active">
+                    <a href="https://www.itc2019.org/mysolutions">My solutions</a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+</app-header>
+    <router-outlet></router-outlet><app-instance-stats><div class="container">
+     <div class="row">
+          <div class="col-xs-12 col-md-8 col-md-offset-2">
+               <!--template bindings={}--><div>
+                    <div><h3 class="head-1">Basic Info</h3>
+<table>
+<tbody><tr><th width="200px">Instance Name:</th><td>bet-sum18</td></tr>
+<tr><th>Instance Size:</th><td>0.13 MB</td></tr>
+<tr><th>Number of Courses:</th><td>48</td></tr>
+<tr><th>Number of Classes:</th><td>127 (29 fixed)</td><td><i>Fixed are classes that have only one possible placement</i></td></tr>
+<tr><th>Number of Rooms:</th><td>46</td></tr>
+</tbody></table>
+<h3 class="head-2">Distribution Constraints</h3>
+<table>
+<tbody><tr><th width="200px">Hard Distributions:</th><td width="100px">110</td></tr>
+<tr><th>Soft Distributions:</th><td>34</td></tr>
+<tr><th>Average Penalty:</th><td>3.91</td><td><i>Soft constraints only</i></td></tr>
+<tr><th>Hard Class Pairs:</th><td>228</td><td><i>Number of pairs of classes with a distribution constraint that</i></td></tr>
+<tr><th>Soft Class Pairs:</th><td>78</td><td><i>can be binarized</i></td></tr>
+<tr><th>Average Pair Penalty:</th><td>3.42</td></tr>
+</tbody></table>
+<h3 class="head-3">Special Constraints</h3>
+<table>
+<tbody><tr><th>Max Days:</th><td>0</td></tr>
+<tr><th>Max Day Load:</th><td>0</td></tr>
+<tr><th>Max Breaks:</th><td>0</td></tr>
+<tr><th width="200px">Max Block:</th><td>0</td></tr>
+</tbody></table>
+<h3 class="head-4">Students</h3>
+<table>
+<tbody><tr><th width="200px">Number of Students:</th><td width="100px">0</td></tr>
+</tbody></table>
+<h3 class="head-5">Domains</h3>
+<table>
+<tbody><tr><th width="200px">Classes without Room:</th><td width="100px">6</td></tr>
+<tr><th>Average Times of a Class:</th><td>1.65</td></tr>
+<tr><th>Average Time Penalty:</th><td>0.17</td></tr>
+<tr><th>Average Rooms of a Class:</th><td>16.44</td></tr>
+<tr><th>Average Room Penalty:</th><td>29.49</td></tr>
+<tr><th>Average Domain Size:</th><td>26.80</td></tr>
+<tr><th>Average Availability:</th><td>83.9%</td><td><i>Percentage of class placements (time × room) that are available</i></td></tr>
+</tbody></table>
+<h3 class="head-6">Date &amp; Time Patterns</h3>
+<table>
+<tbody><tr><th width="200px">Number of Weeks:</th><td>6</td></tr>
+<tr><th>Minutes Per Meeting:</th><td>107.87</td></tr>
+<tr><th>Days Per Class:</th><td>3.24</td></tr>
+<tr><th>Weeks Per Class:</th><td>5.48</td></tr>
+</tbody></table>
+<h3 class="head-7">Utilization</h3>
+<table>
+<tbody><tr><th width="200px">Minutes Per Class:</th><td width="100px">1739.8</td><td><i>Average number of minutes a class is taught during the semester</i></td></tr>
+<tr><th>Minutes Per Room:</th><td>4744.6</td><td><i>Average number of minutes a room is occupied during the semester</i></td></tr>
+</tbody></table>
+<h3 class="head-8">Weights</h3>
+<table>
+<tbody><tr><th width="200px">Time Weight:</th><td>1</td></tr>
+<tr><th width="200px">Room Weight:</th><td>1</td></tr>
+<tr><th width="200px">Distribution Weight:</th><td>10</td></tr>
+</tbody></table>
+</div>
+               </div>
+          </div>
+     </div>
+</div>
+</app-instance-stats>
+    <app-footer><div class="container">
+  <table class="footer-table">
+    <tbody><tr>
+      <td style="text-align: left;" width="20%">
+          <a href="https://www.itc2019.org/forum">ITC 2019 Discussion Forum</a>
+      </td>
+      <td style="text-align: center;" width="60%">
+          For any questions or comments, please contact us at <a href="mailto:organizers@itc2019.org">organizers@itc2019.org</a>.
+      </td>
+      <td style="text-align: right; padding-top: 2px;" width="20%">
+        <iframe id="twitter-widget-0" scrolling="no" allowtransparency="true" class="twitter-follow-button twitter-follow-button-rendered" style="position: static; visibility: visible; width: 111px; height: 20px;" title="Twitter Follow Button" src="bet-sum18_files/follow_button.html" data-screen-name="itc2019" frameborder="0"></iframe>
+        
+      </td>
+    </tr>
+  </tbody></table>
+</div>
+</app-footer>
+</div>
+</my-app>
+<script src="bet-sum18_files/widgets.js" charset="utf-8"></script>
+<script type="text/javascript" src="bet-sum18_files/bundle.js"></script>
+<script src="bet-sum18_files/jquery.js"></script>
+<script src="bet-sum18_files/bootstrap.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<iframe src="bet-sum18_files/console.html" id="vimvixen-console-frame" class="vimvixen-console-frame"></iframe><iframe scrolling="no" allowtransparency="true" src="bet-sum18_files/widget_iframe.html" title="Twitter settings iframe" style="display: none;" frameborder="0"></iframe></body></html>

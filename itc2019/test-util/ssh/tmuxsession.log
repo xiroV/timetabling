@@ -1,0 +1,8 @@
+2019-05-04 19:22:31,974 INFO: Call to <function read_commandline_args at 0x7f4ec72f7268>. Elapsed time: 0.05526089668273926
+2019-05-04 19:22:31,975 ERROR: The package "byobu-tmux" is not installed.
+2019-05-04 19:23:12,715 INFO: Call to <function read_commandline_args at 0x7f0494675268>. Elapsed time: 0.053809165954589844
+2019-05-04 19:23:12,716 ERROR: The package "byobu-tmux" is not installed.
+2019-05-04 19:23:53,350 INFO: Call to <function read_commandline_args at 0x7f9dec3f6268>. Elapsed time: 0.05491375923156738
+2019-05-04 19:23:53,351 ERROR: The package "byobu-tmux" is not installed.
+2019-05-04 19:40:14,907 INFO: Call to <function read_commandline_args at 0x7f1ecb727268>. Elapsed time: 0.05648231506347656
+2019-05-04 19:40:14,909 ERROR: The package "byobu-tmux" is not installed.
